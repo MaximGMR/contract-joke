@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Получите Подарок!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Получите эксклюзивный подарок!</h1>
+        <p>Заполните форму ниже, чтобы получить ваш приз 🎁</p>
+        <form action="process.php" method="POST">
+            <label for="first_name">Имя:</label>
+            <input type="text" id="first_name" name="first_name" required>
+
+            <label for="last_name">Фамилия:</label>
+            <input type="text" id="last_name" name="last_name" required>
+
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phone_number">Номер телефона:</label>
+            <input type="text" id="phone_number" name="phone_number" required>
+
+            <button type="submit">Получить подарок!</button>
+        </form>
+    </div>
+</body>
+</html>
